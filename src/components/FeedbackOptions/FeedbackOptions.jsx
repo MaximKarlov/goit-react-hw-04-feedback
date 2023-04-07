@@ -17,7 +17,6 @@ export const FeedbackOptions = ({ onClicker }) => {
   );
 };
 
-// FeedbackOptions.propTypes = {
-//   options: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-//   onLeaveFeedback: PropTypes.func.isRequired,
-// };
+FeedbackOptions.propTypes = {
+  onClicker: PropTypes.func.isRequired,
+};
